@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminActivity"
+    android:background="#696969">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nand Enterprises Satara"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="40dp"
+       />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+           >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Details"
+                android:textStyle="bold"
+                android:onClick="userDetails"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Bookings"
+                android:textStyle="bold"
+                android:onClick="show_bookings"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Details"
+                android:textStyle="bold"
+                android:onClick="event"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:hint="Search Username"
+        android:textColorLink="@color/black"
+        android:textColor="#2196F3"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#515050"
+        android:background="@drawable/custom"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="15dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:layout_marginLeft="50dp"
+    android:id="@+id/txt_123"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    android:textSize="18dp"/>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-480dp"
+        android:onClick="go_to_details"
+        android:src="@drawable/event112"
+        android:visibility="invisible"
+
+        ></ImageButton>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/upcoming1"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgbtn_2"
+        android:onClick="go_to_update"
+        android:visibility="invisible"
+        ></ImageButton>
+
+
+
+
+
+</LinearLayout>

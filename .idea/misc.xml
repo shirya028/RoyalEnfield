@@ -1,0 +1,19 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shree/AndroidStudioProjects/RoyalEnfield3/app/src/main/res/layout/activity_accessories.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/RoyalEnfield3/app/src/main/res/layout/activity_accessories_bill.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/RoyalEnfield3/app/src/main/res/layout/activity_bookbike11.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/RoyalEnfield3/app/src/main/res/layout/activity_event.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/RoyalEnfield3/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

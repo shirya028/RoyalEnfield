@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".update_event"
+    android:background="@color/white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nand Enterprises Satara"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Details"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registeterd People for the event.."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/t0"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:textStyle="italic"
+        android:textSize="13dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        ></TextView>
+    <WebView
+        android:layout_width="330dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/wv"
+        android:visibility="invisible"></WebView>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/back2"
+        android:text="Update   Event"
+        android:onClick="change_event"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/change_event_btn"
+        android:visibility="invisible"></Button>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:hint="Enter amount for the event"
+        android:background="@drawable/back2"
+        android:textColorHint="#C6C4C4"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/e1"
+        android:visibility="invisible"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set"
+
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/set_btn"
+        android:onClick="setAmount"
+        android:visibility="invisible"></Button>
+</LinearLayout>
